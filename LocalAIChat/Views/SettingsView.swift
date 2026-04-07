@@ -15,11 +15,11 @@ struct SettingsView: View {
             Divider()
 
             VStack(alignment: .leading, spacing: 8) {
-                Text("Ollama Server URL")
+                Text("AI Server URL")
                     .font(.headline)
                 TextField("http://localhost:11434", text: $tempURL)
                     .textFieldStyle(.roundedBorder)
-                Text("Enter the URL of your Ollama server")
+                Text("Enter the URL of your AI server")
                     .font(.caption)
                     .foregroundColor(.secondary)
             }
