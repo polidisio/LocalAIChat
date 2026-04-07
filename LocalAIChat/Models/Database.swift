@@ -34,7 +34,7 @@ class DatabaseManager {
 
     private func getDatabasePath() -> String {
         let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
-        let appFolder = appSupport.appendingPathComponent("LocalAIChat", isDirectory: true)
+        let appFolder = appSupport.appendingPathComponent("MindChat", isDirectory: true)
 
         if !FileManager.default.fileExists(atPath: appFolder.path) {
             try? FileManager.default.createDirectory(at: appFolder, withIntermediateDirectories: true)

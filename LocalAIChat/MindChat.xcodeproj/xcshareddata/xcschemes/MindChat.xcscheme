@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9C6A1C183565A4C9FE2807AC"
-               BuildableName = "LocalAIChat.app"
-               BlueprintName = "LocalAIChat"
-               ReferencedContainer = "container:LocalAIChat.xcodeproj">
+               BlueprintIdentifier = "F2EDEE15405C6C4193E3F7B8"
+               BuildableName = "MindChat.app"
+               BlueprintName = "MindChat"
+               ReferencedContainer = "container:MindChat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9C6A1C183565A4C9FE2807AC"
-            BuildableName = "LocalAIChat.app"
-            BlueprintName = "LocalAIChat"
-            ReferencedContainer = "container:LocalAIChat.xcodeproj">
+            BlueprintIdentifier = "F2EDEE15405C6C4193E3F7B8"
+            BuildableName = "MindChat.app"
+            BlueprintName = "MindChat"
+            ReferencedContainer = "container:MindChat.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9C6A1C183565A4C9FE2807AC"
-            BuildableName = "LocalAIChat.app"
-            BlueprintName = "LocalAIChat"
-            ReferencedContainer = "container:LocalAIChat.xcodeproj">
+            BlueprintIdentifier = "F2EDEE15405C6C4193E3F7B8"
+            BuildableName = "MindChat.app"
+            BlueprintName = "MindChat"
+            ReferencedContainer = "container:MindChat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9C6A1C183565A4C9FE2807AC"
-            BuildableName = "LocalAIChat.app"
-            BlueprintName = "LocalAIChat"
-            ReferencedContainer = "container:LocalAIChat.xcodeproj">
+            BlueprintIdentifier = "F2EDEE15405C6C4193E3F7B8"
+            BuildableName = "MindChat.app"
+            BlueprintName = "MindChat"
+            ReferencedContainer = "container:MindChat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>

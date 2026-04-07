@@ -1,6 +1,6 @@
-name: LocalAIChat
+name: MindChat
 options:
-  bundleIdPrefix: com.localai
+  bundleIdPrefix: com.mindchat
   deploymentTarget:
     macOS: "14.0"
   createIntermediateGroups: true
@@ -12,7 +12,7 @@ packages:
     from: "0.15.0"
 
 targets:
-  LocalAIChat:
+  MindChat:
     type: application
     platform: macOS
     sources:
@@ -26,7 +26,7 @@ targets:
         buildPhase: none
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.localai.chat
+        PRODUCT_BUNDLE_IDENTIFIER: com.mindchat.chat
         INFOPLIST_FILE: Info.plist
         CODE_SIGN_IDENTITY: "-"
         CODE_SIGN_STYLE: Manual
@@ -41,10 +41,10 @@ targets:
         product: SQLite
 
 schemes:
-  LocalAIChat:
+  MindChat:
     build:
       targets:
-        LocalAIChat: all
+        MindChat: all
     run:
       config: Debug
     profile:

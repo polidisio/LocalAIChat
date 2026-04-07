@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002AEEEFADB7A4AB2916A727 /* MenuBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EF1FB28221B1624D89D68 /* MenuBarViewModel.swift */; };
+		0448E4C88FB8C3B5A6CB7616 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D71339B76239236C846AE1 /* Database.swift */; };
+		12E2776C6B4FD043374F815B /* OllamaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410FC2AF67138EA9AA351753 /* OllamaModels.swift */; };
+		42485FD7E8F09ED44EAC5689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7037261668ADF8B337C94551 /* AppDelegate.swift */; };
+		4A54BE8EE8C9FAD0107EF7F2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E389473A8D395E43E7FEEF3F /* Message.swift */; };
+		596D4F6CC8ADAB5D13C11BF2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CE7F45DA4BD1AAEAA8E8D /* main.swift */; };
+		6BA99B4133A9C361B3547B6B /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A66ACB21A995901F2BC476B /* MainContentView.swift */; };
+		895CD92EC4D99881B711F3FC /* ChatContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D856B4F8C0A83375151CFA4A /* ChatContentView.swift */; };
+		97CD9055CC9F07D4C243F4D8 /* OllamaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CC4A342C72577B5214E82B /* OllamaService.swift */; };
+		9B646AA543666C3DC787F6E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26665D707743BB54B41D92A3 /* Assets.xcassets */; };
+		B372C8BD4986BD58D3C9D555 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7DDB484A0A24586CAE7A4 /* Chat.swift */; };
+		B3BFED026A4B23EEBB4FD9A2 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FC7CBCD0DF65C6E7627862 /* ChatViewModel.swift */; };
+		BD332A449CAA345CF007DB7D /* MenuBarPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CE34E473BE611B2DEC2A06 /* MenuBarPopoverView.swift */; };
+		C0CB4214E58B5401853F97CA /* ConversationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D8D1438A0F41E9BA63A875 /* ConversationListView.swift */; };
+		D3463CD4FC05C70E8721A177 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E932721FC181FBB71769E /* SettingsView.swift */; };
+		E4C4AEFDC34567EC35FFF578 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 3C61C112485418AF6FBA6EDA /* SQLite */; };
+		EA7E78E1038E98EC73876885 /* ChatComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1D7CD19BC5551FFB058CE3 /* ChatComponents.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10FC7CBCD0DF65C6E7627862 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		26665D707743BB54B41D92A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27CC4A342C72577B5214E82B /* OllamaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllamaService.swift; sourceTree = "<group>"; };
+		29CE34E473BE611B2DEC2A06 /* MenuBarPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarPopoverView.swift; sourceTree = "<group>"; };
+		30EACCA55BAB2677A2D787A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		410FC2AF67138EA9AA351753 /* OllamaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllamaModels.swift; sourceTree = "<group>"; };
+		4E04F525B153ED40CD7E1F31 /* MindChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1D7CD19BC5551FFB058CE3 /* ChatComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatComponents.swift; sourceTree = "<group>"; };
+		7037261668ADF8B337C94551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90D8D1438A0F41E9BA63A875 /* ConversationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationListView.swift; sourceTree = "<group>"; };
+		950EF1FB28221B1624D89D68 /* MenuBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarViewModel.swift; sourceTree = "<group>"; };
+		9A66ACB21A995901F2BC476B /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		CDA7DDB484A0A24586CAE7A4 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		D15CE7F45DA4BD1AAEAA8E8D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D856B4F8C0A83375151CFA4A /* ChatContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatContentView.swift; sourceTree = "<group>"; };
+		E389473A8D395E43E7FEEF3F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E5D71339B76239236C846AE1 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		EE1E932721FC181FBB71769E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B0265F613AA27BB1A7F9840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C4AEFDC34567EC35FFF578 /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69C5D4DCBCE18E1577BA8D79 = {
+			isa = PBXGroup;
+			children = (
+				30EACCA55BAB2677A2D787A0 /* Info.plist */,
+				D753E116566838E3285A431C /* App */,
+				E8BEEF84CBA6FFFF51ED7CB7 /* Models */,
+				D3AED4562114C7A90798DC84 /* Resources */,
+				C8C4E0832F1B1E714F7EE05B /* Services */,
+				C529B0382902328100CEB0E3 /* ViewModels */,
+				97F66607C17BA84C7120D90C /* Views */,
+				93D668D30D75EB7A5AB9DF22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93D668D30D75EB7A5AB9DF22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E04F525B153ED40CD7E1F31 /* MindChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97F66607C17BA84C7120D90C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A1D7CD19BC5551FFB058CE3 /* ChatComponents.swift */,
+				D856B4F8C0A83375151CFA4A /* ChatContentView.swift */,
+				90D8D1438A0F41E9BA63A875 /* ConversationListView.swift */,
+				9A66ACB21A995901F2BC476B /* MainContentView.swift */,
+				29CE34E473BE611B2DEC2A06 /* MenuBarPopoverView.swift */,
+				EE1E932721FC181FBB71769E /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C529B0382902328100CEB0E3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				10FC7CBCD0DF65C6E7627862 /* ChatViewModel.swift */,
+				950EF1FB28221B1624D89D68 /* MenuBarViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C8C4E0832F1B1E714F7EE05B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				27CC4A342C72577B5214E82B /* OllamaService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D3AED4562114C7A90798DC84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26665D707743BB54B41D92A3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D753E116566838E3285A431C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7037261668ADF8B337C94551 /* AppDelegate.swift */,
+				D15CE7F45DA4BD1AAEAA8E8D /* main.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E8BEEF84CBA6FFFF51ED7CB7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDA7DDB484A0A24586CAE7A4 /* Chat.swift */,
+				E5D71339B76239236C846AE1 /* Database.swift */,
+				E389473A8D395E43E7FEEF3F /* Message.swift */,
+				410FC2AF67138EA9AA351753 /* OllamaModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2EDEE15405C6C4193E3F7B8 /* MindChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D573432A486D4B98DF742EC /* Build configuration list for PBXNativeTarget "MindChat" */;
+			buildPhases = (
+				6802EAD7B2BF4C3F44CFA723 /* Sources */,
+				808818DB98EA88D221975C1F /* Resources */,
+				6B0265F613AA27BB1A7F9840 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindChat;
+			packageProductDependencies = (
+				3C61C112485418AF6FBA6EDA /* SQLite */,
+			);
+			productName = MindChat;
+			productReference = 4E04F525B153ED40CD7E1F31 /* MindChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2323ABEEE3DCB2F74279D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F2EDEE15405C6C4193E3F7B8 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 053786558CDFF484B7FAD475 /* Build configuration list for PBXProject "MindChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 69C5D4DCBCE18E1577BA8D79;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				824576F3F60222A61D475146 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2EDEE15405C6C4193E3F7B8 /* MindChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		808818DB98EA88D221975C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B646AA543666C3DC787F6E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6802EAD7B2BF4C3F44CFA723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42485FD7E8F09ED44EAC5689 /* AppDelegate.swift in Sources */,
+				B372C8BD4986BD58D3C9D555 /* Chat.swift in Sources */,
+				EA7E78E1038E98EC73876885 /* ChatComponents.swift in Sources */,
+				895CD92EC4D99881B711F3FC /* ChatContentView.swift in Sources */,
+				B3BFED026A4B23EEBB4FD9A2 /* ChatViewModel.swift in Sources */,
+				C0CB4214E58B5401853F97CA /* ConversationListView.swift in Sources */,
+				0448E4C88FB8C3B5A6CB7616 /* Database.swift in Sources */,
+				6BA99B4133A9C361B3547B6B /* MainContentView.swift in Sources */,
+				BD332A449CAA345CF007DB7D /* MenuBarPopoverView.swift in Sources */,
+				002AEEEFADB7A4AB2916A727 /* MenuBarViewModel.swift in Sources */,
+				4A54BE8EE8C9FAD0107EF7F2 /* Message.swift in Sources */,
+				12E2776C6B4FD043374F815B /* OllamaModels.swift in Sources */,
+				97CD9055CC9F07D4C243F4D8 /* OllamaService.swift in Sources */,
+				D3463CD4FC05C70E8721A177 /* SettingsView.swift in Sources */,
+				596D4F6CC8ADAB5D13C11BF2 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2ACC5F0ED7D912FEC9507D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindchat.chat;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		30FFD805A44BD07E459DCDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6C59B83BC7AC2AF7E63A62FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindchat.chat;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		D4E5BCCEFAC58A9AC710B8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		053786558CDFF484B7FAD475 /* Build configuration list for PBXProject "MindChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E5BCCEFAC58A9AC710B8C2 /* Debug */,
+				30FFD805A44BD07E459DCDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D573432A486D4B98DF742EC /* Build configuration list for PBXNativeTarget "MindChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ACC5F0ED7D912FEC9507D4C /* Debug */,
+				6C59B83BC7AC2AF7E63A62FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		824576F3F60222A61D475146 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C61C112485418AF6FBA6EDA /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 824576F3F60222A61D475146 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DB2323ABEEE3DCB2F74279D4 /* Project object */;
+}

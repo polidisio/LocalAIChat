@@ -21,7 +21,7 @@ struct MenuBarPopoverView: View {
             Image(systemName: "brain.head.side")
                 .font(.title2)
                 .foregroundColor(.accentColor)
-            Text("LocalAIChat")
+            Text("MindChat")
                 .font(.headline)
             Spacer()
         }
