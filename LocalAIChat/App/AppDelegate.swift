@@ -55,7 +55,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let hostingController = NSHostingController(rootView: contentView)
 
         mainWindow = NSWindow(
-            contentRect: NSRect(x: 0, y: 0, width: 1000, height: 700),
+            contentRect: NSRect(x: 0, y: 0, width: 1024, height: 800),
             styleMask: [.titled, .closable, .miniaturizable, .resizable],
             backing: .buffered,
             defer: false
@@ -63,7 +63,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         mainWindow?.title = "LocalAIChat"
         mainWindow?.contentViewController = hostingController
         mainWindow?.center()
-        mainWindow?.minSize = NSSize(width: 800, height: 600)
+        mainWindow?.minSize = NSSize(width: 900, height: 700)
     }
 
     func showMainWindow() {
