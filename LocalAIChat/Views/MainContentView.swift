@@ -14,7 +14,7 @@ struct MainContentView: View {
 
             ChatContentView(viewModel: viewModel, showSettings: $showSettings)
         }
-        .frame(minWidth: 700, minHeight: 500)
+        .frame(minWidth: 800, minHeight: 600)
         .background(Color(NSColor.windowBackgroundColor))
         .onReceive(NotificationCenter.default.publisher(for: .newChatRequested)) { _ in
             viewModel.createNewChat()
