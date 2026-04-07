@@ -25,7 +25,7 @@ class ChatViewModel: ObservableObject {
     private var streamingTask: Task<Void, Never>?
 
     init() {
-        self.serverURL = UserDefaults.standard.string(forKey: "serverURL") ?? "http://192.168.1.172:11434"
+        self.serverURL = UserDefaults.standard.string(forKey: "serverURL") ?? "http://localhost:11434"
         self.selectedModel = UserDefaults.standard.string(forKey: "selectedModel") ?? ""
         loadChatsFromDatabase()
         Task {
