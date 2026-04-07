@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F2EDEE15405C6C4193E3F7B8"
-               BuildableName = "MindChat.app"
-               BlueprintName = "MindChat"
-               ReferencedContainer = "container:MindChat.xcodeproj">
+               BlueprintIdentifier = "D1116B6EF0069C2C917920F6"
+               BuildableName = "LLMBox.app"
+               BlueprintName = "LLMBox"
+               ReferencedContainer = "container:LLMBox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F2EDEE15405C6C4193E3F7B8"
-            BuildableName = "MindChat.app"
-            BlueprintName = "MindChat"
-            ReferencedContainer = "container:MindChat.xcodeproj">
+            BlueprintIdentifier = "D1116B6EF0069C2C917920F6"
+            BuildableName = "LLMBox.app"
+            BlueprintName = "LLMBox"
+            ReferencedContainer = "container:LLMBox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F2EDEE15405C6C4193E3F7B8"
-            BuildableName = "MindChat.app"
-            BlueprintName = "MindChat"
-            ReferencedContainer = "container:MindChat.xcodeproj">
+            BlueprintIdentifier = "D1116B6EF0069C2C917920F6"
+            BuildableName = "LLMBox.app"
+            BlueprintName = "LLMBox"
+            ReferencedContainer = "container:LLMBox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F2EDEE15405C6C4193E3F7B8"
-            BuildableName = "MindChat.app"
-            BlueprintName = "MindChat"
-            ReferencedContainer = "container:MindChat.xcodeproj">
+            BlueprintIdentifier = "D1116B6EF0069C2C917920F6"
+            BuildableName = "LLMBox.app"
+            BlueprintName = "LLMBox"
+            ReferencedContainer = "container:LLMBox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>

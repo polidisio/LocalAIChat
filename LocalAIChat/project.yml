@@ -1,6 +1,6 @@
-name: MindChat
+name: LLMBox
 options:
-  bundleIdPrefix: com.mindchat
+  bundleIdPrefix: com.llmbox
   deploymentTarget:
     macOS: "14.0"
   createIntermediateGroups: true
@@ -12,7 +12,7 @@ packages:
     from: "0.15.0"
 
 targets:
-  MindChat:
+  LLMBox:
     type: application
     platform: macOS
     sources:
@@ -26,7 +26,7 @@ targets:
         buildPhase: none
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.mindchat.chat
+        PRODUCT_BUNDLE_IDENTIFIER: com.llmbox.chat
         INFOPLIST_FILE: Info.plist
         CODE_SIGN_IDENTITY: "-"
         CODE_SIGN_STYLE: Manual
@@ -41,10 +41,10 @@ targets:
         product: SQLite
 
 schemes:
-  MindChat:
+  LLMBox:
     build:
       targets:
-        MindChat: all
+        LLMBox: all
     run:
       config: Debug
     profile:

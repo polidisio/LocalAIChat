@@ -106,7 +106,7 @@ struct SettingsView: View {
     private func exportAllChats() {
         let panel = NSSavePanel()
         panel.allowedContentTypes = [.json, .plainText]
-        panel.nameFieldStringValue = "localai_export"
+        panel.nameFieldStringValue = "llmbox_export"
 
         if panel.runModal() == .OK, let url = panel.url {
             do {

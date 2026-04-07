@@ -20,7 +20,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
 
         if let button = statusItem?.button {
-            button.image = NSImage(systemSymbolName: "brain.head.side", accessibilityDescription: "MindChat")
+            button.image = NSImage(systemSymbolName: "brain.head.side", accessibilityDescription: "LLMBox")
         }
 
         menuBarViewModel = MenuBarViewModel(
@@ -60,7 +60,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             backing: .buffered,
             defer: false
         )
-        mainWindow?.title = "MindChat"
+        mainWindow?.title = "LLMBox"
         mainWindow?.contentViewController = hostingController
         mainWindow?.center()
         mainWindow?.minSize = NSSize(width: 900, height: 700)
