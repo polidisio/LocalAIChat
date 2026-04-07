@@ -168,7 +168,7 @@ class ChatViewModel: ObservableObject {
     }
 
     func deleteMessage(_ message: Message, from chat: Chat) {
-        guard var chatIndex = chats.firstIndex(where: { $0.id == chat.id }) else { return }
+        guard let chatIndex = chats.firstIndex(where: { $0.id == chat.id }) else { return }
         chats[chatIndex].messages.removeAll { $0.id == message.id }
         chats[chatIndex].updatedAt = Date()
         saveChat(chats[chatIndex])

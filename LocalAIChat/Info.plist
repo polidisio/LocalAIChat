@@ -27,5 +27,7 @@
     </dict>
     <key>com.apple.security.network</key>
     <true/>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
 </dict>
 </plist>
